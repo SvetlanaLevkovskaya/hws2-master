@@ -39,7 +39,7 @@ export const message0: MessageType = {
         name: 'Svetlana',  // можно менять
     },
     message: {
-        text: 'Hi, how are you? flgjlgjrsg sgjlskgjlskgn slgislfgsg selgisjlgjsd sdigsgj', // можно менять
+        text: 'Hi, how are you? lkgjhljls gslgjslfgjslfg sglsjgsljg srigjsfgjslg sofgislfgls', // можно менять
         time: '22:00', // можно менять
     },
 }
@@ -50,7 +50,7 @@ export const friendMessage0: MessageType = {
         name: 'Viktor', // можно менять
     },
     message: {
-        text: 'I\'m great, thanks dgjkdgjkdjgkdgjkdjgkdgjkdjgkdjgkdjgkdjgkdgjkdjg', // можно менять
+        text: 'I\'m great, thanks dgjkdgjkdjgkdgjkdjgkdgjkdjgk', // можно менять
         time: '22:01', // можно менять
     },
 }

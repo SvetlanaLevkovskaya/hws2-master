@@ -2,27 +2,22 @@
     padding: 73px 70px 20px 70px;
     align-items: flex-end;
     display: flex;
-    /*flex-direction:column;*/
-    /*flex-wrap: wrap;*/
-   /* gap: 1rem;*/
     justify-content: space-around;
 }
 
 .textarea {
-    /*margin: 10px;*/
-    /*position: absolute;*/
     width: 976px;
-    height: 40px;
     border-radius: 20px;
-    padding: 10px;
+    padding: 12px;
     background-color: #F5F7FB;
     box-shadow: 0 0 2px #c2c4ce;
     border: #F5F7FB;
+    resize: none;
 }
 
 .button {
     /*position: absolute;*/
-    background:#0066CC;
+    background: #0066CC;
     color: white;
     align-items: center;
     border: 2px solid transparent;
@@ -37,12 +32,13 @@
     width: 120px;
     height: 40px;
 
-
 }
 
 .button:hover {
-
+    background-color: #015bb4;
+    border-color: transparent;
 }
+
 .button:active {
 
 }
