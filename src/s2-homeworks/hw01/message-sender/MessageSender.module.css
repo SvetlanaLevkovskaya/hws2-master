@@ -26,9 +26,11 @@
     display: inline-flex;
     font-family: inherit;
     font-weight: 600;
+    font-size: 16px;
+    text-align: center;
     justify-content: center;
-    line-height: 19.52px;
-    padding: 10px 25px;
+    line-height: 20px;
+    padding: 8px 39px 10px 38px;
     width: 120px;
     height: 40px;
 
