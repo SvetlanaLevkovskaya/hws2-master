@@ -49,6 +49,7 @@ export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType):  
 
     }
 }
+
 export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<AffairType> => { // need to fix any
     return affairs.filter(t => t._id !== _id) // need to fix
 
