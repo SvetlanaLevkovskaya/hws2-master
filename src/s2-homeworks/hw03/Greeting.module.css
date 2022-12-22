@@ -17,34 +17,36 @@
     font-size: 14px;
     line-height: 17px;
     margin-top: 7px;
+
 }
 
 .input {
-    /*position: absolute;*/
-    width: 370px;
+    width: 372px;
     height: 36px;
     border-radius: 5px;
+    border: 1px solid #D1D1D1;
     padding: 5px;
     resize: none;
-    border-color: rgba(0, 0, 0, 0.5);
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
 
+
 }
 
 .input:focus {
-    border: 0;
+    outline: #cc0000;
 }
 
 .errorInput {
+    border: #CC0000 1px solid;
     width: 370px;
     height: 36px;
     border-radius: 5px;
     padding: 5px;
     resize: none;
-    border-color: #CC0000;
+    /*border-color: #CC0000;*/
 }
 
 .button {

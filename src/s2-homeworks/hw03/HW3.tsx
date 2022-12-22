@@ -13,11 +13,10 @@ import GreetingContainer from './GreetingContainer'
 * 7 - в файле GreetingContainer.tsx дописать логику функций pureAddUser, pureOnBlur, pureOnEnter и проверить их тестами done
 * 8 - в файле GreetingContainer.tsx вычислить количество добавленных и имя последнего (totalUsers, lastUserName)        done
 * 9 - в файле Greeting.tsx дописать типизацию пропсов                                                                   done
-* 10 - в файле Greeting.tsx вычислить inputClass в зависимости от наличия ошибки
-* 11 - сделать стили в соответствии с дизайном
+* 10 - в файле Greeting.tsx вычислить inputClass в зависимости от наличия ошибки                                        done
+* 11 - сделать стили в соответствии с дизайном                                                                          done
 * */
 
-// types
 export type UserType = {
     _id: string // need to fix any
     name: string // need to fix any

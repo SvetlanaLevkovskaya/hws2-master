@@ -12,9 +12,9 @@
 .hwTitle {
     display: flex;
     align-items: flex-end;
-    margin: 0px 0px 0px 70px;
+    margin: 0px 0px 10px 70px;
     padding: 0px;
-    height: 144px;
+    height: 70px;
     text-align: left;
     font-size: 22px;
     font-family: 'Montserrat', sans-serif;
