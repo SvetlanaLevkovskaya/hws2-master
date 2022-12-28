@@ -1,7 +1,7 @@
 .greetingForm {
     margin-top: 31px;
     margin-left: 70px;
-    margin-bottom: 300px;
+    margin-bottom: 204px;
 }
 
 .inputAndButtonContainer {
@@ -46,7 +46,7 @@
     border-radius: 5px;
     padding: 5px;
     resize: none;
-    /*border-color: #CC0000;*/
+    outline-color: #CC0000;
 }
 
 .button {
@@ -82,7 +82,6 @@
 
 .text {
     margin-bottom: 10px;
-
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -92,7 +91,6 @@
 
 .greeting {
     margin-top: 10px;
-
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
