@@ -2,22 +2,36 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 70px;
+    margin-bottom: 55px;
+    margin-top: 94px;
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
     gap: 48px;
+    align-self: flex-start;
+
+
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    justify-content: center;
+    max-width: 100%;
+    position: relative;
+
 }
 
 .checkboxes {
     display: flex;
     flex-direction: column;
     gap: 36px;
+    align-self: flex-start;
+    margin-top: 7px;
+
+
 }

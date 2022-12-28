@@ -1,36 +1,138 @@
 .button {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
 }
 
 .disabled {
+    width: 133px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color:  #002E5C;
+    background-color:  #004D99;
+    opacity: 0.5;
+    padding: 5px 25px;
+    border: solid  #004D99 2px;
+    border-radius: 3px;
+    transition : 1000ms;
+    cursor: pointer;
 }
 
 .secondary {
+    width: 176px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color:#0066CC;
+    padding: 5px 25px;
+    border: solid #0066cc 2px;
+    border-radius: 3px;
+    transition : 1000ms;
+    cursor: pointer;
 }
 
 .default {
+    width: 132px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0066CC;
+    padding: 5px 25px;
+    border: solid #0066cc 2px;
+    border-radius: 3px;
+    transition : 1000ms;
+    cursor: pointer;
 }
 
 .red {
+    width: 132px;
+    height: 30px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #CC1439;
+    padding: 5px 25px;
+    border: solid #CC1439 2px;
+    border-radius: 3px;
+    transition : 1000ms;
+    cursor: pointer;
 }
 
 .default:hover {
+    width: 167px;
+    height: 30px;
+    font-weight: 600;
+    transition : 1000ms;
+    padding: 5px 27px;
+    transform : translateY(-0px);
+    background-color: #0080FF;
+    color: #fff;
+    border: solid 2px #0080FF;
+    border-radius: 3px;
 }
 
 .red:hover {
+    width: 167px;
+    height: 30px;
+    font-weight: 600;
+    transition : 1000ms;
+    padding: 5px 27px;
+    transform : translateY(-0px);
+    background-color:  #FF1A47;
+    color: #fff;
+    border: solid 2px  #FF1A47;
+    border-radius: 3px;
 }
 
 .secondary:hover {
+    width: 167px;
+    height: 30px;
+    font-weight: 600;
+    transition : 1000ms;
+    padding: 5px 27px;
+    transform : translateY(-0px);
+    background-color: #E5F0FA;
+    color: #0066CC;
+    border: solid 2px #0066CC;
+    border-radius: 3px;
 }
 
 
 .default:active {
+    width: 149px;
+    height: 30px;
+    font-weight: 600;
+    padding: 5px 27px;
+    background-color: #0059B2;
+    color: #fff;
+    border: solid 2px #0059B2;
+    border-radius: 3px;
 }
 
 .secondary:active {
+    width: 149px;
+    height: 30px;
+    font-weight: 600;
+    padding: 5px 27px;
+    background-color: #C9E5FF;
+    color: #0066CC;
+    border: solid 2px #0066CC;
+    border-radius: 3px;
 }
 
 .red:active {
+    width: 149px;
+    height: 30px;
+    font-weight: 600;
+    padding: 5px 27px;
+    background-color: #B31232;
+    color: #fff;
+    border: solid 2px #B31232;
+    border-radius: 3px;
 }
 
 .button:disabled {
+    background: #004D99;
 }
+
+
