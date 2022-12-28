@@ -132,7 +132,18 @@
 }
 
 .button:disabled {
-    background: #004D99;
+    width: 133px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color:  #002E5C;
+    background-color:  #004D99;
+    opacity: 0.5;
+    padding: 5px 25px;
+    border: solid  #004D99 2px;
+    border-radius: 3px;
+    transition : 1000ms;
+    cursor: pointer;
 }
 
 
